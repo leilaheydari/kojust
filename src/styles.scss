@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("./assets/scss/Awesome5-Font.scss");
+@import url("./assets/scss/Awesome5Pro.scss");
+
+
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+  direction: ltr;
+  text-align: left;
+  margin: 0;
+  background-color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  white-space: wrap;
+  color: #9ba2ac; 
+  overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}

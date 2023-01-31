@@ -1,0 +1,52 @@
+header{
+    .box{
+      padding: 20px 80px;
+      background-color: #eef1f4;
+      border-bottom: 1px solid #667080;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .actions{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-grow: 1;
+        margin-left: 105px;
+        .left{
+          .search{
+            background-color: #fafafa;
+            border:1px solid #9ba2ac;
+            
+          }
+          .new{
+            background-color: #667080;
+            color: #fff;
+            border:1px solid #667080;
+            font-size: 14px;
+            padding-right: 15px;
+            .fa-plus{
+              margin:0px 10px 0px 10px;
+            }
+          }
+          .icon{
+            margin-right: 10px;
+          }
+        }
+        .right{
+          .icon{
+            background-color: #667080;
+            color: #fff;
+            margin-left: 10px;
+            border:1px solid #667080;
+          }
+        }
+        .icon{
+          padding: 5px;
+          border-radius: 4px;
+          min-width: 40px;
+          height: 40px;
+          font-size: 16px;
+        }
+      }
+    }
+}

@@ -1,0 +1,32 @@
+<div class="action-header"> 
+    <button class="btn btn-active">pasitions</button>
+    <button class="btn">Students</button>
+    <button class="btn">Reasearchs</button>
+  </div>
+  <div class="items">
+    <div class="card" *ngFor="let item of list ">
+      <div class="content">
+        <h1 class="card-header-1"><i class="fal fa-graduation-cap" aria-hidden="true"></i>{{item.type}}</h1>
+        <h4 class="card-header-2"><i class="fal fa-glasses" aria-hidden="true"></i>{{item.name}}</h4>
+        <div class="location">
+          <span><i class="fal fa-university" aria-hidden="true"></i>MacEwan University</span>
+          <span class="edmonton"><i class="fal fa-map-marker" aria-hidden="true"></i>Edmonton</span>
+        </div>
+        <div class="actions">
+          <span>
+            <button>Virtual</button>
+            <button>Fulltime</button>
+          </span>
+          <span class="price">
+            <span>Payment:</span>
+            <span class="value">3000$</span>
+          </span>
+        </div>
+      </div>
+      <div class="footer">
+        <button>Message</button>
+        <div class="icon"><i class="fas fa-bookmark"></i></div>
+      </div>
+    </div>
+  </div>
+

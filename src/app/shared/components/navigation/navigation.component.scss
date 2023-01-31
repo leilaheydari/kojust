@@ -1,0 +1,20 @@
+nav{
+    width: 200px;
+    background-color: #eef1f4;
+    position: fixed;
+    height: 100%;
+    padding: 30px 10px 40px 100px;
+  ul{
+    list-style: none;
+    li{
+        a{
+            color: #9ba2ac !important;
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+  }
+}
+.fas{
+  margin-right: 10px;
+}
